@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "mews-mcp": {
-      "command": "npx",
+      "command": "npx.cmd",
       "args": ["-y", "mews-mcp@latest"],
       "env": {
         "MEWS_CLIENT_TOKEN": "07AB1F14B55C49B8BDD6AD200158423B-273A4497AFF5E20566D7199DB3DC2BA",

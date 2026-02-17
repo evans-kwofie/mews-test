@@ -1,7 +1,15 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:docs.mews.com)"
+      "WebFetch(domain:docs.mews.com)",
+      "mcp__mews-mcp__getAllRates",
+      "mcp__mews-mcp__getAllSpaceCategories",
+      "Bash(node -e:*)",
+      "mcp__mews-mcp__getRatePricing"
     ]
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "mews-mcp"
+  ]
 }
