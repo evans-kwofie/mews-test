@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mews-mcp": {
+      "command": "npx",
+      "args": ["-y", "mews-mcp@latest"],
+      "env": {
+        "MEWS_CLIENT_TOKEN": "07AB1F14B55C49B8BDD6AD200158423B-273A4497AFF5E20566D7199DB3DC2BA",
+        "MEWS_ACCESS_TOKEN": "BFD4298010F54B069F3DAD20015D53EA-D5561FADFBA4EFC8EA4C179C6BC461F",
+        "MEWS_CLIENT": "mews-mcp/1.0.0",
+        "MEWS_BASE_URL": "https://api.mews-demo.com"
+      }
+    }
+  }
+}
